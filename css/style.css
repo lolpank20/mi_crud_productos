@@ -8,8 +8,8 @@
 /* Fondo oscuro y tipografía */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #2d2d2d; /* Fondo oscuro */
-    color: #eaeaea; /* Color claro para el texto */
+    background-color: #2d2d2d; 
+    color: #eaeaea; 
     padding: 20px;
     transition: all 0.3s ease;
     line-height: 1.6;
@@ -18,7 +18,7 @@ body {
 /* Títulos */
 h1, h2 {
     text-align: center;
-    color: #4CAF50; /* Color de texto verde para los títulos */
+    color: #4CAF50; 
     margin-bottom: 20px;
 }
 
@@ -27,7 +27,7 @@ h1, h2 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #333; /* Fondo más oscuro para la caja principal */
+    background-color: #333; 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -54,13 +54,13 @@ input[type="text"], input[type="number"], textarea {
 
 input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
     outline: none;
-    border-color: #4CAF50; /* Verde para el foco */
+    border-color: #4CAF50; 
 }
 
 /* Botón de acción */
 button, .btn {
     padding: 12px 20px;
-    background-color: #4CAF50; /* Verde para los botones */
+    background-color: #4CAF50; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -118,10 +118,10 @@ a:hover {
 /* Estilo para los botones "Guardar" y "Actualizar" */
 button {
     padding: 12px 24px;
-    background: linear-gradient(145deg, #6aaf62, #4CAF50); /* Fondo degradado */
+    background: linear-gradient(145deg, #6aaf62, #4CAF50);
     color: white;
     border: none;
-    border-radius: 25px; /* Bordes redondeados */
+    border-radius: 25px; 
     font-size: 1.2em;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
@@ -130,13 +130,13 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(145deg, #4CAF50, #6aaf62); /* Cambio de gradiente al pasar el ratón */
-    transform: scale(1.05); /* Efecto de ampliación al pasar el ratón */
+    background: linear-gradient(145deg, #4CAF50, #6aaf62); 
+    transform: scale(1.05); 
 }
 
 button:active {
-    background: #45a049; /* Fondo sólido cuando se hace clic */
-    transform: scale(0.98); /* Efecto de reducción al hacer clic */
+    background: #45a049; 
+    transform: scale(0.98); 
 }
 
 /* Para la estructura del formulario y centrado del contenido */
@@ -157,5 +157,5 @@ input[type="text"], input[type="number"], textarea {
 
 input[type="text"]:focus, input[type="number"]:focus, textarea:focus {
     outline: none;
-    border-color: #4CAF50; /* Verde para el foco */
+    border-color: #4CAF50; 
 }
